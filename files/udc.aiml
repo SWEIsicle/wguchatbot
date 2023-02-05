@@ -2,6 +2,27 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>Hello, for career advice please type begin.</template>
+  </category>
+  <category>
+    <pattern>begin</pattern>
+    <template>Is your major computer science, or something else?</template>
+  </category>
+  <category>
+    <pattern>computer science</pattern>
+    <template>What a coincidence, that it mine as well. Would you like to see 
+    career paths for computer science graduates?</template>
+  </category>
+  <category>
+    <pattern>yes</pattern>
+    <template>Is your major computer science, or something else?</template>
+  </category>
+  <category>
+    <pattern>no</pattern>
+    <template>Oh...ok, thank you for taking the time to chat with me :)</template>
+  </category>
+  <category>
+    <pattern>begin</pattern>
+    <template>Is your major computer science, or something else?</template>
   </category>
 </aiml>
