@@ -15,7 +15,103 @@
   </category>
   <category>
     <pattern>yes</pattern>
-    <template>Is your major computer science, or something else?</template>
+    <template>
+            <image>https://www.rasmussen.edu/images/rasmussenlibraries/blogs/computer-science-career-pathsbc91bd22-5694-449f-a49b-40b7c0f7f1b4.jpg</image>
+    Perfect! I have a total of 5 careers I can advise on. Here are five clickable
+    buttons to summarise each career.
+    <reply>
+        <text>Cybersecurity</text>
+        <postback>Cybersecurity</postback>
+    </reply>
+    <reply>
+        <text>Software engineering</text>
+        <postback>Software engineering</postback>
+    </reply>
+    <reply>
+        <text>Web development</text>
+        <postback>Web development</postback>
+    </reply>
+    <reply>
+        <text>Data Science</text>
+        <postback>Data Science</postback>
+    </reply>
+    <reply>
+        <text>Game Development</text>
+        <postback>Game Development</postback>
+    </reply>
+  </template>
+  </category>
+  <category>
+    <pattern>Cybersecurity</pattern>
+    <template>Good choice! Cyber security is an expanding field that will likely increase in demand
+    as time goes on. This demand is offset by lower salaries than what many computer science graduates 
+    can expect. Cybersecurity averages at $85,000 annually as of February 2023. Cybersecurity will
+    offer a variety of work opportunites, from government deffense, to corproate prevention of service
+    disruption. Over all cybersecurity will provide a fairly stable life, as well as an exciting career!
+    <link>
+        <text> For more information click my link below.</text>
+        <url>https://www.cyberseek.org/pathway.html</url>
+    </link>
+    </template>
+  </category>
+  <category>
+    <pattern>Software engineering</pattern>
+    <template>I am considering this one myself! Software engineering is one of the most in demand
+    careers right now. Due to this demand, software engineers boast some of the largest graduate, and senior
+    salaries in the computer science field. Software engineering is a career in building solutions to
+    business problems, using computing and programming languages. Software engineers can expect an average
+    salary of $106,000 annually as of February 2023!
+    <link>
+        <text> For more information click my link below.</text>
+        <url>https://www.tryexponent.com/blog/software-engineer-career-path</url>
+    </link>
+    </template>
+  </category>
+  <category>
+    <pattern>Web development</pattern>
+    <template>Exciting! Web development is a great career path that puts your skills in design to the test.
+    Web development is similiar to software engineering, but with a focus on 'Front End' development. 
+    This phrase describes the forward nature of web development. Many aspects of web development are
+    visual and format based. This path is great for creative minds and offers an average salary of
+    $82,000 annually. Whilst, this path is the lowest paid path I can advise, it is still $28,000 annually more
+    than the national average in the United States.
+    <link>
+        <text> For more information click my link below.</text>
+        <url>https://www.thinkful.com/blog/web-development-career-path/</url>
+    </link>
+    </template>
+  </category>
+  <category>
+    <pattern>Data Science</pattern>
+    <template>Information is the gold of today's markets! In a career of data science, you can expect to
+    combine analytical skills, with programming skills, to aid in the critical analysis of business decisions.
+    Data science is a lucrative career that boasts one of the highest graduating salaries of all bachelor degrees!
+    Not only is it a great place to start, but it is also the highest average salary of any computer science
+    career path I could advise. As of February 2023, data scientists made an average salary of $125,000 annually!
+    <link>
+        <text> For more information click my link below.</text>
+        <url>https://www.knowledgehut.com/blog/data-science/data-scientist-career-path</url>
+    </link>
+    </template>
+  </category>
+  <category>
+    <pattern>Game Development</pattern>
+    <template>My personal favorite! Game development has started as hobbyists and grown into a
+    massive industry in which tech companies have historically competed internationally. Game 
+    development is a perfect fit for story tellers and artists. In this field programming collides with
+    art, writing, characters, and online community. Game development can have some difficult work conditions
+    such as stress and tightly packed deadlines that must both meet customer expectations, and compete with
+    the competitive promises of the marketing teams. Game development can have be a long journey that doesn't result
+    in what you expected. Even knowing this, some of the best careers can be found in the entertainment industry, 
+    and the average salary comes in at $79,000 annually. While this is technically less than web development, the 
+    ceiling for game development goes pretty high. Take for example, one of the most popular games in the world, minecraft.
+    While I am not a minecraft player, it's hard to miss the impressive 2.5 BILLION dollars that that the creator sold
+    their game for to the large tech company Microsoft.
+    <link>
+        <text> For more information click my link below.</text>
+        <url>https://www.cgspectrum.com/career-pathways/game-development</url>
+    </link>
+    </template>
   </category>
   <category>
     <pattern>no</pattern>
